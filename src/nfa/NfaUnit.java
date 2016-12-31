@@ -59,6 +59,7 @@ public class NfaUnit {
         Dfa dfa = new Dfa();
         dfa.setDfa(result);
         dfa.setEndStatus(endStatus);
+        dfa.setCharSetList(nfa.getCharSetList());
         return dfa;
     }
 
